@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: 'Lato','Roboto Mono', sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.main-menu {
+  width: 296px;
+  min-height: 800px;
+  background: #F8F9FA;
+  padding-top: 32px;
+  padding-bottom: 32px; }
+  .main-menu h1 {
+    min-height: 40px;
+    background: url(../images/logo-ANSWER.svg);
+    background-repeat: no-repeat;
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 32px;
+    margin-bottom: 32px; }
+  .main-menu ul {
+    margin-bottom: 360px; }
+    .main-menu ul li {
+      margin-bottom: 24px; }
+      .main-menu ul li a {
+        display: block;
+        padding-left: 32px;
+        line-height: 24px;
+        font-weight: bold; }
+        .main-menu ul li a span {
+          margin-right: 16px; }
+      .main-menu ul li a:hover {
+        color: #198754;
+        border-left: 4px solid #198754; }
+
+.user {
+  margin-left: 32px; }
+  .user img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px; }
+  .user h2 {
+    line-height: 24px;
+    font-weight: bold; }
+  .user h3 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C757D; }
+
+.container {
+  width: 984px;
+  margin: 0 auto;
+  padding: 32px 32px 0 32px; }
+
+.admin h2 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold;
+  margin-right: 48px; }
+
+.admin .add {
+  color: #198754; }
+
+.admin a {
+  color: #000; }
+
+.admin a:hover {
+  color: #198754; }
+
+.search {
+  margin-right: 24px; }
+
+.arrow_downward {
+  font-size: 12px;
+  font-weight: bold;
+  color: #198754;
+  margin-left: 7px; }
+
+.main-list {
+  line-height: 1.5; }
+  .main-list .table-title {
+    border-bottom: 1px solid #000; }
+  .main-list th {
+    padding-bottom: 4.5px; }
+  .main-list td {
+    padding-top: 19px;
+    padding-bottom: 17px; }
+  .main-list a {
+    color: black; }
+  .main-list a:hover {
+    color: #198754; }
+
+.me-25 {
+  margin-right: 25px; }
+
+.me-150 {
+  margin-right: 150px; }
+
+.color-bk {
+  color: #000; }
+
+.color-g {
+  color: #198754; }
+
+.page-link:hover {
+  color: #fff;
+  background: #198754; }
+
+/*# sourceMappingURL=all.css.map */
